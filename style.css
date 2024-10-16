@@ -1,0 +1,81 @@
+.card {
+  background-color: white;
+  padding: 10px;
+  width: 540px;
+  margin: 25px auto;
+  border-radius: 20px;
+  border: 1px solid #EAEAEA;
+}
+
+#profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+body {
+  font-family: Space Mono;
+  text-align: center;
+  padding: 20px;
+  background-color: #EEEDEB;
+}
+
+h2, h3 {
+  font-family: Space Grotesk;
+  color: #00712D;
+}
+
+h1 {
+  color: #6EACDA;
+}
+
+li {
+  display: inline;
+}
+
+ul {
+  padding: 0;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #00712D;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+a:hover {
+  color: #7DB9B6;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .card {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .card {
+    width: 300px;
+  }
+}
